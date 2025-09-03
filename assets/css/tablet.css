@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+
+
+    .actionMenu {
+
+        min-width: 130px;
+        flex: 1;
+
+    }
+
+
+}
+
+@media (min-width: 900px) {
+    .exp-card {
+        padding: 20px;
+    }
+
+    .exp-grid {
+        grid-template-columns: 96px 1fr;
+        column-gap: 1.25rem;
+    }
+
+    .exp-logo {
+        width: 96px;
+        height: 96px;
+        border-radius: 16px;
+    }
+}

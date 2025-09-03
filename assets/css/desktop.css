@@ -1,0 +1,10 @@
+@media (min-width: 1024px) {
+
+
+    .actionMenu {
+
+        min-width: 130px;
+        flex: 1;
+
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Breakpoint overrides -->
+    <link rel="stylesheet" href="/assets/css/tablet.css" />
+    <link rel="stylesheet" href="/assets/css/desktop.css" />
+    <!-- Animations -->
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/880dbed722.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="dark-theme">
+    <header id="header" class="header">
+      <div class="header-container">
+        <nav id="nav" class="nav"></nav>
+        <div class="actionMenu">
+          <button id="themeBtn" class="themeBtn">
+            <span id="themeIndicator" class="themeIndicator"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <section id="about" class="about">
+        <article class="aboutContainer">
+          <h2 class="sectionTitle">About Me</h2>
+          <section class="about-subContainer">
+            <article class="about-text">
+              <p>
+                I am a <strong>self-taught Full-Stack Developer</strong> with a
+                strong foundation in both frontend and backend development. I
+                enjoy building responsive, user-friendly interfaces using
+                <strong>HTML, CSS, JavaScript, React.js, and Next.js</strong>,
+                while also developing robust backend solutions with
+                <strong>Node.js, Express.js, and MongoDB</strong>.
+              </p>
+              <p>
+                My journey as a developer has been fueled by curiosity and
+                dedication, gaining practical knowledge from
+                <a href="https://coursecareers.com/"
+                  ><span class="xox">CourseCareer</span></a
+                >
+                and
+                <a href="https://www.coursera.org/"
+                  ><span class="xox">Coursera</span></a
+                >, and applying it through hands-on projects that reflect
+                real-world software development practices.
+              </p>
+              <p>
+                Passionate about continuous learning and problem-solving, I
+                strive to deliver efficient, impactful solutions and contribute
+                effectively in collaborative team environments.
+              </p>
+            </article>
+          </section>
+        </article>
+      </section>
+
+      <section id="experience" class="experience">
+        <article class="sectionContainer">
+          <h2 class="sectionTitle">Where I've Worked</h2>
+          <section class="subContainer expContainer"></section>
+        </article>
+      </section>
+
+      <section id="skills" class="skills">
+        <article class="sectionContainer">
+          <h2 class="sectionTitle">My Skills</h2>
+          <section class="subContainer">
+            <!-- Two clear groups will render here via JS -->
+            <article id="skillsContainer" class="skillsContainer"></article>
+          </section>
+        </article>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
+      <p>Mohamed Jalloh &copy; 2025. All rights reserved.</p>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
